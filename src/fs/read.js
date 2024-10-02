@@ -1,7 +1,7 @@
-const fs = require('fs');
+import fs from 'fs';
 
 const ERROR = 'FS operation failed';
-const READ_PATH = './files/fileToRead.txt';
+const READ_PATH = './src/fs/files/fileToRead.txt';
 
 const read = async () => {
     const checkExist = fs.existsSync(READ_PATH);

@@ -1,4 +1,4 @@
-const fs = require('fs');
+import fs from 'fs';
 
 const create = async () => {
     const filePath = './src/fs/files/fresh.txt';

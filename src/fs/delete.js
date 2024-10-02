@@ -1,4 +1,4 @@
-const fs = require('fs');
+import fs from 'fs';
 
 const ERROR = 'FS operation failed';
 const DELETE_PATH = './src/fs/files/fileToRemove.txt';

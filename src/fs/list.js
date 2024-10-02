@@ -1,4 +1,4 @@
-const fs = require('fs');
+import fs from 'fs';
 
 const ERROR = 'FS operation failed';
 const LIST_PATH = './src/fs/files';

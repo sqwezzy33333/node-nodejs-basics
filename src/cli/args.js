@@ -6,7 +6,7 @@ const parseArgs = () => {
             return;
         }
         const next = filteredArguments[i + 1];
-        console.log(arg + ' is ' + (next || '') + ',')
+        console.log(arg.substring(2) + ' is ' + (next || '') + ',')
     })
 };
 
