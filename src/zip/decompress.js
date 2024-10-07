@@ -1,8 +1,8 @@
 import { existsSync, createReadStream, createWriteStream} from "fs";
 import zlib from "zlib";
 
-const FILE_PATH = './files/fileToCompress.txt';
-const ZIP_FILE_NAME = './files/archive.gz';
+const FILE_PATH = './src/zip/files/fileToCompress.txt';
+const ZIP_FILE_NAME = './src/zip/files/archive.gz';
 
 const decompress = async () => {
 

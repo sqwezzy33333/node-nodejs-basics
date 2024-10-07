@@ -1,4 +1,4 @@
-const fs = require('fs');
+import fs from 'fs';
 
 const ERROR_MESSAGE = 'FS operation failed';
 const pathForCopy = './src/fs/files';

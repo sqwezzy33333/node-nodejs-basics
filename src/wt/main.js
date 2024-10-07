@@ -1,7 +1,7 @@
 import {Worker} from "worker_threads";
 import {cpus} from 'os';
 
-const workerPath = "./worker.js";
+const workerPath = "./src/wt/worker.js";
 
 function startWorker(workerData) {
     return new Promise((resolve, reject) => {
