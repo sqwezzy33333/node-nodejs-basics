@@ -9,7 +9,6 @@ const write = async () => {
 
 
     function dataListener(data) {
-        console.log(data);
         const writeText = data.toString().trim();
         stream.write(writeText);
         stream.end();

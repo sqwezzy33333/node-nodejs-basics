@@ -6,7 +6,7 @@ export const read = async () => {
     const readStream = createReadStream(fileToRead, 'utf8');
 
     readStream.on('data', (content) => {
-            process.stdout.write(content);
+            process.stdout.write(content + '\n');
         });
 };
 
